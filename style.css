@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.moon{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 150px;
+    color: ghostwhite;
+
+}
+.star1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 90px;
+    color: ghostwhite;
+}
+.star2{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 60px;
+    color: white;
+}
+.star3{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    font-size: 30px;
+    color: goldenrod;
+}
+.star4{
+    position: absolute;
+    top: 90%;
+    right: 20%;
+    font-size: 70px;
+    color: ghostwhite;
+}
+.star5{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 20px;
+    color: goldenrod;
+}
+.star6{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    font-size: 30px;
+    color: goldenrod;
+}
+
+
+#layout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+#image{
+    height: 50%;
+    width:15%;
+    border: 10px inset goldenrod;
+    background: linear-gradient(goldenrod,gold);
+}
+#image>img{
+    height: 100%;
+    width: 100%;
+}
+#name{
+    height: 40px;
+    width:20%;
+    font-family: 'Merienda', cursive;
+    color: goldenrod;
+    font-size: 20px;
+    text-align: center;
+    line-height:40px ;  
+}
+#description{
+    height: 80px;
+    width: 60%;
+    font-family: 'Merienda', cursive;
+    color: goldenrod;
+    font-size: 20px;
+    text-align: center;
+    line-height:80px ;  
+}
+
+#draw{
+    padding: 10px;
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    border: 10px outset goldenrod;
+    background: linear-gradient(goldenrod,gold);
+}
+/* respo */
+
+@media(orientation:portrait){
+    #image{
+        height: 50%;
+        width:50%;
+    }
+}
+@media(min-width:320px){
+    #name{
+        height: 20px;
+        width:30%;
+        font-size: 10px;
+        line-height:20px ;  
+    }
+    #description{
+        height: 10px;
+        width: 60%;
+        font-size: 10px;
+        text-align: center;
+        line-height:10px ;  
+    }
+    
+    #draw{
+        padding: 2px;
+        font-family: 'Merienda', cursive;
+        font-size: 10px;
+        border: 3px outset goldenrod;
+    }
+    .moon{
+        top: 5%;
+        left: 5%;
+        font-size: 50px;
+
+    
+    }
+    .star1{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        font-size: 40px;
+        color: ghostwhite;
+    }
+    .star2{
+        position: absolute;
+        top: 60%;
+        left: 80%;
+        font-size: 60px;
+        color: white;
+    }
+    .star3{
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        font-size: 30px;
+        color: goldenrod;
+    }
+    .star4{
+        position: absolute;
+        top: 90%;
+        right: 20%;
+        font-size: 70px;
+        color: ghostwhite;
+    }
+    .star5{
+        position: absolute;
+        top: 7%;
+        left: 16%;
+        font-size: 20px;
+        color: goldenrod;
+    }
+    .star6{
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+        font-size: 30px;
+        color: goldenrod;
+    }
+
+}
+@media(min-width:410px){
+    #name{
+        height: 30px;
+        width:30%;
+        font-size: 15px;
+        line-height:30px ;  
+    }
+    #description{
+        height: 15px;
+        width: 60%;
+        font-size: 15px;
+        text-align: center;
+        line-height:15px ;  
+    }
+    
+    #draw{
+        padding: 2px;
+        font-family: 'Merienda', cursive;
+        font-size: 20px;
+        border: 3px outset goldenrod;
+    }
+
+}
+@media(min-width:600px){
+    #image{
+        height: 50%;
+        width:45%;
+    }
+    #name{
+        height: 25px;
+        width:30%;
+        font-size: 25px;
+        line-height:25px;  
+    }
+    #description{
+        height: 25px;
+        width: 60%;
+        font-size: 25px;
+        text-align: center;
+        line-height:25px ;  
+    }
+
+    #draw{
+        padding: 2px;
+        font-family: 'Merienda', cursive;
+        font-size: 25px;
+        border: 3px outset goldenrod;
+    }
+
+}
+@media(min-width:640px){
+    #image{
+        height: 50%;
+        width:20%;
+    }
+    #name{
+        height: 20px;
+        width:30%;
+        font-size: 15px;
+        line-height:20px;  
+    }
+    #description{
+        height: 20px;
+        width: 60%;
+        font-size: 10px;
+        text-align: center;
+        line-height:20px ;  
+    }
+
+    #draw{
+        padding: 2px;
+        font-family: 'Merienda', cursive;
+        font-size: 15px;
+        border: 3px outset goldenrod;
+    }
+
+}
+@media(min-width:800px){
+    #image{
+        height: 50%;
+        width:40%;
+    }
+    #name{
+        height: 30px;
+        width:30%;
+        font-size: 25px;
+        line-height:30px;  
+    }
+    #description{
+        height: 20px;
+        width: 60%;
+        font-size: 20px;
+        text-align: center;
+        line-height:20px ;  
+    }
+
+    #draw{
+        padding: 2px;
+        font-family: 'Merienda', cursive;
+        font-size: 25px;
+        border: 3px outset goldenrod;
+    }
+
+}
+@media(min-width:1280px){
+    #image{
+        height: 50%;
+        width:20%;
+    }
+
+}
